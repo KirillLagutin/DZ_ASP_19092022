@@ -27,7 +27,7 @@ app.MapGet("/customs_duty", (double price) =>
 
 /*
  Задача 2
- Строка для вставки https://localhost/?language=en
+ Старт указал в файле launchSettings https://localhost/?language=en
  en меняем на любой другой язык
  */
 app.MapGet("/", (string language) =>
