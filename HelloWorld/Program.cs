@@ -13,6 +13,7 @@ app.MapGet("/new_year", () => countDay.Days);*/
 
 
 /*
+ Задача 1
  Строка для вставки https://localhost/customs_duty?price=300
  300 меняем на любую другую стоимость
  */
@@ -25,6 +26,7 @@ app.MapGet("/customs_duty", (double price) =>
 });
 
 /*
+ Задача 2
  Строка для вставки https://localhost/?language=en
  en меняем на любой другой язык
  */
